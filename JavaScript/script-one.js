@@ -21,3 +21,7 @@ var name;
 name = 'Василий';
 admin = name;
 alert(name);*/
+/*var dor=0;
+var gor=10;
+var dor=gor;
+alert(dor);*/
