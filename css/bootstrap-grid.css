@@ -4,6 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
 @-ms-viewport {
   width: device-width;
 }
@@ -17,6 +18,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
 }
 
 .container {
