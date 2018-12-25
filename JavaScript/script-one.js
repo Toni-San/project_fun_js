@@ -34,11 +34,34 @@ if (question == "«ECMAScript»") {
 }else {
 	alert("«Не знаете? «ECMAScript»!»");
 }*/
-var value = prompt("Введите значение!", "");
+/*var value = prompt("Введите значение!", "");
 if (value > 0) {
 	alert ( 1 );
 } else if (value < 0) {
 	alert ( -1 );
 } else {
 	alert ( 0 );
-}
+}*/
+
+/*var userName = prompt('Кто пришёл?', '');
+
+if (userName == 'Админ') {
+
+  var pass = prompt('Пароль?', '');
+
+  if (pass == 'Чёрный Властелин') {
+    alert( 'Добро пожаловать!' );
+  } else if (pass == null) { // (*)
+    alert( 'Вход отменён' );
+  } else {
+    alert( 'Пароль неверен' );
+  }
+
+} else if (userName == null) { // (**)
+  alert( 'Вход отменён' );
+
+} else {
+
+  alert( 'Я вас не знаю' );
+
+}*/
