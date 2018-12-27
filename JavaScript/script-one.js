@@ -74,3 +74,40 @@ if (age > "14" && age < "90") {
 	alert("Не верно");
 }*/
 
+/*var i = 0;
+while (i < 3) {
+  alert( i );
+  i++;
+}*/
+/*
+for (var i = 2; i <= 10; i++) {
+  if (i % 2 == 0) {
+    alert( i );
+  }
+}
+*/
+/*
+var i = 0;
+while (i < 3) {
+  alert( "номер " + i + "!" );
+  i++;
+}
+*/
+/*
+var num;
+
+do {
+  num = prompt("Введите число больше 100?", 0);
+} while (num <= 100 && num != null);
+*/
+/*
+nextPrime:
+  for (var i = 2; i <= 10; i++) {
+
+    for (var j = 2; j < i; j++) {
+      if (i % j == 0) continue nextPrime;
+    }
+
+    alert( i ); // простое
+  }
+*/
