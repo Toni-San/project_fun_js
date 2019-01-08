@@ -65,7 +65,7 @@ if (userName == 'Админ') {
   alert( 'Я вас не знаю' );
 
 }*/
- 
+
 //не работает
 /*var age = prompt("Ваш возраст", "");
 if (age > "14" && age < "90") {
@@ -117,65 +117,64 @@ if (age >= 14 && age <= 90) {
 } else {
 	alert ("No");
 }*/
- /*
- var value = prompt("Каково «официальное» название JavaScript?","");
- if (value == "ECMAScript") {
- 	alert("Верно!");
- } else {
- 	alert ("Не знаете?«ECMAScript»!");
- }
- */
- /*
-  var value = prompt("Введите значение!","");
-  if (value > 0) {
-  	alert( 1 );
-  } else if (value < 0) {
-  	alert( -1 );
-  } else {
-  	alert( 0 );
-  }
+/*
+var value = prompt("Каково «официальное» название JavaScript?","");
+if (value == "ECMAScript") {
+    alert("Верно!");
+} else {
+    alert ("Не знаете?«ECMAScript»!");
+}
 */
 /*
-var logIn = prompt("Введите логин","");
-
-console.log(logIn);
-
+ var value = prompt("Введите значение!","");
+ if (value > 0) {
+     alert( 1 );
+ } else if (value < 0) {
+     alert( -1 );
+ } else {
+     alert( 0 );
+ }
+*/
+/*
+var logIn = prompt("Введите логин", "");
 if (logIn == "Админ") {
-		var password = prompt("Введите пароль","");
-		if (password == "Чёрный Властелин") {
-			alert("Добро пожаловать!");
-		} else if (password != "Чёрный Властелин") {
-			alert("Пароль неверен");
-		} else {
-			alert("Вход отменён");
-		};
-} else if ( logIn != "Админ" || logIn) {
-		alert("Я вас не знаю");
+    var password = prompt("Введите пароль", "");
+    if (password == "Чёрный Властелин") {
+        alert("Добро пожаловать!");
+    } else if (password != "Чёрный Властелин") {
+        alert("Пароль неверен");
+    } else {
+        alert("Вход отменён");
+    }
+    ;
+} else if (logIn != "Админ" || logIn) {
+    alert("Я вас не знаю");
 } else {
-		alert("Вход отменён");
-};
+    alert("Вход отменён");
+}
+;
 */
 /*
 var userName = prompt('Кто пришёл?', '');
 
 if (userName == 'Админ') {
 
-  var pass = prompt('Пароль?', '');
+    var pass = prompt('Пароль?', '');
 
-  if (pass == 'Чёрный Властелин') {
-    alert( 'Добро пожаловать!' );
-  } else if (pass == null) { // (*)
-    alert( 'Вход отменён' );
-  } else {
-    alert( 'Пароль неверен' );
-  }
+    if (pass == 'Чёрный Властелин') {
+        alert('Добро пожаловать!');
+    } else if (pass == null) { // (*)
+        alert('Вход отменён');
+    } else {
+        alert('Пароль неверен');
+    }
 
 } else if (userName == null) { // (**)
-  alert( 'Вход отменён' );
+    alert('Вход отменён');
 
 } else {
 
-  alert( 'Я вас не знаю' );
+    alert('Я вас не знаю');
 
 }
 */
